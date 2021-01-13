@@ -1,4 +1,4 @@
-let year = document.getElementById("year");
+const year = document.getElementById("year");
 const lastupdate = document.getElementById("lastupdate");
 
 year.textContent = new Date().getFullYear();
