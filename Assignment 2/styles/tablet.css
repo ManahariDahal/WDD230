@@ -1,0 +1,6 @@
+@media only screen and (max-width: 1024px){
+    main {
+        grid-template-columns: 1fr 1fr;
+        padding: 20px 45px;
+    }
+}
