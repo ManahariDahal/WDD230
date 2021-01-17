@@ -33,7 +33,7 @@ footer {
     font-size: 1.5rem;
 }
 
-#text-head {
+.text-head {
     /* text-transform: capitalize; */
     text-align: center;
     font-size: 1.7rem;
@@ -51,15 +51,15 @@ img {
     background-color: #f0f0f0;
 }
 
-#white {
+.white {
     background-color: rgb(253, 197, 197);
     padding: 15px;
 }
 
-
+/* 
 @media only screen and (min-device-width: 1025px){
     main {
         grid-template-columns: 1fr 1fr 1fr;
         padding: 20px 45px;
     }
-}
+} */
