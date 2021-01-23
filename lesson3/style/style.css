@@ -8,7 +8,7 @@
 
 
 .navbar {
-    background-color: #0082e6;
+    background-color: #005469;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -166,16 +166,16 @@ img {
     background-color: #0082e6;
 }
 
-.cream {
-    background-color: #f0efc9;
+.gr-bl {
+    background-color: #005469;
 }
 
 .yellow {
     background-color: #f1bb1b;
 }
 
-.sun {
-    background-color: #d55127;
+.dr-gr {
+    background-color: #1d2b36;
 }
 
 .green {
