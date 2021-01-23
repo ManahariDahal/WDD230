@@ -23,10 +23,11 @@ p {
 
 
 header, footer {
-    background-color: #1abc9c;
+    background-color: #0082e6;
     padding: 25px;
     font-size: 2rem;
     text-align: center;
+    color: white;
 }
 
 footer {

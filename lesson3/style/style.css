@@ -91,6 +91,10 @@ img {
     padding: 10px;
 }
 
+.p-bg{
+    /* background-color: #87ceeb; */
+    padding: 15px;
+}
 
 @media (max-width: 870px) {
     .toggle-button {
@@ -206,5 +210,5 @@ ol li {
 }
 
 .bg-color {
-    background-color: #87ceeb;
+    background-color: #1abc9c;
 }
