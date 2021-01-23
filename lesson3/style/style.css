@@ -1,0 +1,202 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;   
+}
+
+
+.navbar {
+    background-color: #0082e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.brand-title {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 20px;
+    font-weight: 600;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-links li:hover{
+    background-color: #ff8b3d;
+    border-radius: 1px;
+}
+
+.toggle-button {
+    position: absolute;
+    line-height: 80px;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    align-items: center;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+img {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+@media (max-width: 870px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        /*****************************************************
+        * We need JavaScript to click and bring down the menu 
+        *********************************************************/
+        /* display: none; */ 
+
+
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: 1rem;
+    }
+
+    .navbar-links:active {
+        display:flex;
+    }
+
+    .toggle-button {
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+/*************************************************************************
+* COLOR SCHEME PAGE
+*************************************************************************/
+.ctr {
+    text-align: center;
+}
+
+.size {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.bg-col {
+    font-size: 1.4rem;
+}
+
+.padding {
+    padding: 10px 20px;
+}
+
+.blue {
+    background-color: #0082e6;
+}
+
+.cream {
+    background-color: #f0efc9;
+}
+
+.yellow {
+    background-color: #f1bb1b;
+}
+
+.sun {
+    background-color: #d55127;
+}
+
+.green {
+    background-color: #1abc9c;
+}
+
+.black {
+    background-color: #000000;
+    color: white;
+}
+
+
+
+
+/*************************************************************************
+* TARGET AUDIENCE
+*************************************************************************/
+ol li {
+    margin-left: 5px;
+    padding: 5px;
+}
+
+/*************************************************************************
+* TYPOGRAPHY
+*************************************************************************/
+.thirty-five-poppins {
+    font-size: 35px;
+}
+
+.normal-poppins {
+    font-size: 16px;
+}
+
+.bg-color {
+    background-color: #87ceeb;
+}

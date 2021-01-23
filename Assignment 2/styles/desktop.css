@@ -12,7 +12,7 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-column-gap: 25px;
     padding: 20px 45px;
 }
@@ -36,7 +36,7 @@ footer {
 .text-head {
     /* text-transform: capitalize; */
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 25px;
     background-color: orange;
     padding: 10px;
 
