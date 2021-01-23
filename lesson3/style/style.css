@@ -168,14 +168,16 @@ img {
 
 .gr-bl {
     background-color: #005469;
+    color: white;
 }
 
 .yellow {
     background-color: #f1bb1b;
 }
 
-.dr-gr {
+.dr-black {
     background-color: #1d2b36;
+    color: white;
 }
 
 .green {
