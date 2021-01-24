@@ -17,7 +17,7 @@
 
 .brand-title {
     color: white;
-    font-size: 35px;
+    font-size: 1.7rem;
     line-height: 80px;
     padding: 0 20px;
     font-weight: 600;
@@ -71,6 +71,11 @@
 }
 
 h3 {
+    text-align: center;
+}
+
+.page-intro {
+    font-size: 1.8rem;
     text-align: center;
     padding: 15px;
 }
