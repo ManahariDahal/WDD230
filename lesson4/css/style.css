@@ -1,0 +1,139 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    
+}
+
+header {
+    /* background-color: gray; */
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+
+}
+
+.text-prop {
+    text-align: center;
+}
+
+.icon {
+    width: 100px;
+    height: auto;
+    grid-column: 1;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 360px;
+    background-color: #12aaeb;
+}
+
+#navigation {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#navigation li:first-child {
+    display: block;
+}
+
+#navigation li {
+    display: none;
+}
+
+#navigation a:link, #navigation a:visited, #navigation a:hover, #navigation a:active {
+    display: block;
+    padding: 0.75em;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+#navigation a:hover {
+    color: white;
+    background-color: #0a60a1;
+}
+
+#navigation.responsive li {
+    display: block;
+}
+
+@media only screen and (min-width: 34.5em) {
+    nav {
+        max-width: 100%;
+    }
+
+    #navigation {
+        grid-template-columns: repeat(7, auto); /* 1fr 1fr 1fr 1fr 1fr 1fr */
+    }
+
+    #navigation li {
+        display: block;
+    }
+
+    #navigation li a {
+        text-align: center;
+    }
+
+    #navigation li:first-child {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 54.5em) {
+    #navigation {
+        width: 900px;
+        margin: 16px auto;
+    }
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+main {
+    margin: 0 auto;
+    display: grid;  
+    grid-template-columns: 1fr;
+    background-color: white;
+    gap: 1em;
+    text-align:center;
+    border-radius: 25px;
+    /* min-height: calc(100vh - 42px - 54px); */
+}
+
+
+#hero,
+#forecast,
+#article,
+#contact {
+    margin: 0 5%;
+    padding: 25px 0;
+    border: 2px solid orange;
+    border-radius: 25px;
+    color: gray;
+}
+
+.wrapper {
+    /* position: relative; */
+    /* min-height: 100vh; */
+    padding-bottom: 120px;
+}
+
+footer {
+    text-align: center;
+    background: #12aaeb;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
