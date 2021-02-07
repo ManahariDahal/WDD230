@@ -14,9 +14,9 @@ window.addEventListener('load', ()=>{
 
 
 
-/*
-* Pancake banner
-*/
+/************************************************ 
+* PANCAKE BANNER
+************************************************/
 let day = new Date();
 let currentDay = ["Monday", 
                   "Tuesday", 
@@ -30,3 +30,9 @@ if (currentDay[day.getDay()] === "Friday")
     document.getElementById('banner').style.display = "display";
 else
     document.getElementById('banner').style.display = "none";
+
+
+
+/************************************************ 
+* WAYFINDING CURRENT PAGE
+************************************************/

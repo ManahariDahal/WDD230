@@ -202,6 +202,11 @@ nav {
     display: block;
 }
 
+.active-page {
+    color: black;
+    background-color: #f58a07;
+}
+
 
 
 /******************************************************************
