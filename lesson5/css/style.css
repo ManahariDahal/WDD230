@@ -61,7 +61,7 @@ header {
     width: 100%;
 }
 
-#centered {
+.centered {
     margin: 0;
     font-size: 1.7rem;
     padding: 15px;
