@@ -184,13 +184,13 @@ nav {
 
 #navigation a:link, #navigation a:visited, #navigation a:hover, #navigation a:active {
     display: block;
-    padding: 0.75em;
+    padding: 1em;
     text-align: center;
     text-decoration: none;
-    color: black;
     position: relative;
     color: white;
 }
+
 
 #navigation a:hover {
     color: black;
@@ -198,14 +198,16 @@ nav {
     
 }
 
+#navigation>li>.active-page {
+    color: black;
+    background-color: #f58a07;
+}
+
 #navigation.responsive li {
     display: block;
 }
 
-.active-page {
-    color: black;
-    background-color: #f58a07;
-}
+
 
 
 
