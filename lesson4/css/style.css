@@ -2,9 +2,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    
-}
 
 header {
     /* background-color: gray; */
@@ -13,17 +10,17 @@ header {
 
 }
 
-.text-prop {
+/* .text-prop {
     text-align: center;
-}
+
+} */
 
 .icon {
     width: 100px;
     height: auto;
-    grid-column: 1;
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;   
 }
 
 nav {
@@ -92,11 +89,8 @@ nav {
         width: 900px;
         margin: 16px auto;
     }
-}
 
-
-h2 {
-    text-align: center;
+    
 }
 
 
