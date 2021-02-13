@@ -1,0 +1,65 @@
+/******************************************************************
+*
+*******************************************************************/
+@media only screen and (min-width: 54.5em) {
+    #navigation {
+        width: 900px;
+        margin: 16px auto;
+    }
+
+    .in-block {
+        display: block;
+    }
+
+    .image-banner img {
+        max-width: 1060px;
+        /* min-height: 100px; */
+    }
+
+
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1060px;
+}
+
+
+    
+}
+/* 
+main {
+    margin: 0 auto;
+    display: grid;  
+    grid-template-columns: 1fr;
+    background-color: white;
+    gap: 1em;
+    text-align:center;
+    border-radius: 25px;
+} */
+
+
+
+/* #hero,
+#forecast,
+#article,
+#contact {
+    margin: 0 5%;
+    padding: 25px 0;
+    border: 2px solid orange;
+    border-radius: 25px;
+    color: gray;
+} */
+
+/* .wrapper {
+    padding-bottom: 120px;
+} */
+
+footer {
+    text-align: center;
+    background: #0a60a1;
+    color: white;
+    padding: 20px;
+    /* width: 100%;
+    position: fixed;
+    bottom: 0; */
+}
