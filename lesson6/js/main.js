@@ -1,4 +1,4 @@
-window.addEventListener('load', ()=>{
+window.addEventListener('load', () => {
     const ham = document.querySelector('.ham');
     const mainnav = document.querySelector('#navigation');
 
@@ -18,14 +18,14 @@ window.addEventListener('load', ()=>{
 * PANCAKE BANNER
 ************************************************/
 let day = new Date();
-let currentDay = ["Monday", 
-                  "Tuesday", 
-                  "Wednesday", 
-                  "Thursday", 
-                  "Friday", 
-                  "Saturday",
-                  "Sunday"]
-    
+let currentDay = new Array(7);
+currentDay[0] = "Sunday";
+currentDay[1] = "Monday";
+currentDay[2] = "Tuesday";
+currentDay[3] = "Wednesday";
+currentDay[4] = "Thursday";
+currentDay[5] = "Friday";
+currentDay[6] = "Saturday";
 if (currentDay[day.getDay()] === "Friday")
     document.getElementById('banner').style.display = "display";
 else
