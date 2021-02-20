@@ -19,7 +19,6 @@ picture > img
 
 img {
     /* filter: grayscale(1); */
-    background-color: gray;
     margin: 0;
     padding: 0;
     height: 100%;
