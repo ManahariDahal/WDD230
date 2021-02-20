@@ -70,90 +70,6 @@ header {
 }
 
 
-.wrapper {
-    position: relative;
-}
-
-.overlay {
-    color: black;
-    padding: 1em;
-    margin-top: 1%;
-    background-color: rgba(128, 0, 128, 0.8);
-    color: rgba(255, 255, 255, 0.8);
-}
-
-
-#txt-size {
-    font-weight: normal;
-    font-size: 1.2rem;
-}
-
-hr {
-    margin: 0;
-    width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 5px;
-}
-
-
-
-.five-days-weather {
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 15px;
-    border: solid 1px black;
-    background-color: rgba(255, 7, 7, 0.5);
-}
-
-#five {
-    background-color: rgba(23, 146, 228);
-    /* margin: 0; */
-    padding: 15px;
-    text-align: center;
-}
-
-.main-padding {
-    padding: 15px;
-}
-
-#pad {
-    /* background-color: green; */
-    text-align: left;
-    padding: 15px;
-}
-
-#two {
-    width: 100%;
-}
-
-
-.contact-us {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-
-.contact-us-grid {
-    grid-column: 1/2;
-}
-
-#map {
-    width: 100%;
-    grid-column: 2/2;
-
-}
-
-#bg-contact {
-    background-color: rgba(251, 80, 0, 0.5);
-    padding: 15px;
-}
-
-.size {
-    font-size: 1.2em;
-}
-
-
 nav {
     margin: 0 auto;
     max-width: 360px;
@@ -188,8 +104,7 @@ nav {
 
 #navigation a:hover {
     color: black;
-    background-color: #f58a07;
-    
+    background-color: #f58a07;   
 }
 
 #navigation>li>.active-page {
@@ -199,4 +114,53 @@ nav {
 
 #navigation.responsive li {
     display: block;
+}
+
+
+footer {
+    text-align: center;
+    background: #0a60a1;
+    color: white;
+    padding: 20px;
+}
+
+
+/******************************************************************
+* MEDIUM
+*******************************************************************/
+@media only screen and (min-width: 34.5em) {
+    nav {
+        max-width: 100%;
+    }
+
+    #banner {
+        text-align: center;
+    }
+
+    #navigation {
+        grid-template-columns: repeat(7, auto); /* 1fr 1fr 1fr 1fr 1fr 1fr */
+    }
+
+    #navigation li {
+        display: block;
+    }
+
+    #navigation li a {
+        text-align: center;
+    }
+
+    #navigation li:first-child {
+        display: none;
+    }
+}
+
+
+/******************************************************************
+* LARGE
+*******************************************************************/
+@media only screen and (min-width: 54.5em) {
+    #navigation {
+        width: 900px;
+        margin: 16px auto;
+    }
 }
