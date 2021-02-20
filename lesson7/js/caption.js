@@ -1,13 +1,13 @@
 let caption = document.querySelectorAll(".caption");
 
 for (let i = 0; i < caption.length; i++) {
-    caption[0].textContent = "This is a caption";
-    caption[1].textContent = "Habata Itara Modoranai to itte";
-    caption[2].textContent = "Mezashita no wa aoi aoi ano sora";
-    caption[3].textContent = "You talking to me?";
-    caption[4].textContent = "Hello there!";
-    caption[5].textContent = "GENERAL KENOBI!";
-    caption[6].textContent = "GET TO THE CHOPPA!";
-    caption[7].textContent = "It's LeviOsa, not LevioSAAAA";
-    caption[8].textContent = "HARRY POTTA";
+    caption[0].textContent = "Sunny Beach";
+    caption[1].textContent = "Coconut in a warm weather";
+    caption[2].textContent = "Hot";
+    caption[3].textContent = "Drizzle";
+    caption[4].textContent = "It might rain";
+    caption[5].textContent = "It's snowing";
+    caption[6].textContent = "It's snowing again";
+    caption[7].textContent = "Thor, you ok?";
+    caption[8].textContent = "Foggy forest";
 }
