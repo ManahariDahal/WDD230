@@ -18,9 +18,6 @@ picture > img
 
 
 img {
-    /* filter: grayscale(1); */
     margin: 0;
     padding: 0;
-    height: 100%;
-    width: 100%;
 }
