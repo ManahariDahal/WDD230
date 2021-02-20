@@ -25,4 +25,4 @@ else {
     imagesToLoad.forEach((img) => {
       loadImages(img);
     });
-  }
+}
