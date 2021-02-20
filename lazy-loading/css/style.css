@@ -1,0 +1,35 @@
+#h1 {
+    font-size: 1rem;  
+    text-align: center; 
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+}
+
+
+picture > img 
+{
+    width: 300px;
+    height: 400px;
+}
+
+
+img {
+    -webkit-filter: grayscale(1);
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+    
+img:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+    transition: filter 1.5s;
+}
+    
