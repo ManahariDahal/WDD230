@@ -13,10 +13,30 @@ body {
     background-color: #e7e7e7;
 }
 
+
+.main-rows {
+    font-weight: 600;
+    background-color: #628ca6;
+    color: white;
+    font-size: 1.2em;
+}
+
 table, th, td {
     border: 1.8px solid #a5afb6;
     border-collapse: collapse;
     padding: 5px 15px;
+}
+
+tbody {
+    font-size: 1.2em;
+}
+
+tbody tr:nth-child(n) {
+    background-color: #e7f0ed;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #e7ffed;
 }
 
 #acme {
@@ -34,20 +54,7 @@ table, th, td {
     font-style: oblique;
 }
 
-tbody tr:nth-child(n) {
-    background-color: #e7f0ed;
-}
 
-tbody tr:nth-child(2n) {
-    background-color: #e7ffed;
-}
-
-.main-rows {
-    font-weight: 600;
-    background-color: #628ca6;
-    color: white;
-    font-size: 1.2em;
-}
 
 #nov {
     background-color: #628ca6;
