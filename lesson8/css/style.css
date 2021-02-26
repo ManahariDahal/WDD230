@@ -33,7 +33,7 @@ caption {
 table, th, td {
     border: 1.8px solid #a5afb6;
     border-collapse: collapse;
-    padding: 15px 30px;
+    padding: 8px 15px;
 }
 
 tbody {
