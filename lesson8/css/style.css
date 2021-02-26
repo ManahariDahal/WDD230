@@ -13,6 +13,17 @@ body {
     background-color: #e7e7e7;
 }
 
+.center {
+    text-align: center;
+}
+
+#acme {
+    background-color: #7fb9c2;
+    padding: 3px 55px;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
 
 .main-rows {
     font-weight: 600;
@@ -39,22 +50,10 @@ tbody tr:nth-child(2n) {
     background-color: #e7ffed;
 }
 
-#acme {
-    background-color: #7fb9c2;
-    padding: 3px 55px;
-    font-size: 1.8em;
-    font-weight: 500;
-}
-
-.center {
-    text-align: center;
-}
 
 #italic {
     font-style: oblique;
 }
-
-
 
 #nov {
     background-color: #628ca6;
