@@ -1,6 +1,6 @@
 * {
     margin: 0 auto;
-    font-family: 'Poppins', sans-serif;
+    font-family: Ubuntu, sans-serif;
 }
 
 body {
@@ -11,17 +11,14 @@ body {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     background-color: #e7e7e7;
-}
-
-.center {
     text-align: center;
 }
 
-#acme {
+caption {
     background-color: #7fb9c2;
-    padding: 3px 55px;
+    padding: 5px 55px;
     font-size: 1.8em;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 
@@ -48,11 +45,6 @@ tbody tr:nth-child(n) {
 
 tbody tr:nth-child(2n) {
     background-color: #e7ffed;
-}
-
-
-#italic {
-    font-style: oblique;
 }
 
 #nov {
