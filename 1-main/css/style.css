@@ -1,0 +1,166 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ecf6ff;
+}
+
+#banner {
+    box-sizing: border-box;
+    background-color: orange;
+    margin: 0 auto;
+    padding: 10px;
+    top: 0;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+
+}
+
+#sat {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+header {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text-prop {
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#slogan {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+    width: 100px;
+    height: auto;  
+}
+
+.image-banner img {
+    margin: 0;
+    max-width: 100%;
+}
+
+.centered {
+    margin: 0;
+    font-size: 1.7rem;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+nav {
+    margin: 0 auto;
+    max-width: 360px;
+    background-color: #085399;
+}
+
+#navigation {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+
+#navigation li:first-child {
+    display: block;
+}
+
+#navigation li {
+    display: none;
+}
+
+#navigation a:link, #navigation a:visited, #navigation a:hover, #navigation a:active {
+    display: block;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    color: white;
+}
+
+
+#navigation a:hover {
+    color: black;
+    background-color: #f58a07;   
+}
+
+#navigation>li>.active-page {
+    color: black;
+    background-color: #f58a07;
+}
+
+#navigation.responsive li {
+    display: block;
+}
+
+
+footer {
+    text-align: center;
+    background: #0a60a1;
+    color: white;
+    padding: 20px;
+}
+
+
+/******************************************************************
+* MEDIUM
+*******************************************************************/
+@media only screen and (min-width: 34.5em) {
+    nav {
+        max-width: 100%;
+    }
+
+    #banner {
+        text-align: center;
+    }
+
+    #navigation {
+        grid-template-columns: repeat(7, auto); /* 1fr 1fr 1fr 1fr 1fr 1fr */
+    }
+
+    #navigation li {
+        display: block;
+    }
+
+    #navigation li a {
+        text-align: center;
+    }
+
+    #navigation li:first-child {
+        display: none;
+    }
+}
+
+
+/******************************************************************
+* LARGE
+*******************************************************************/
+@media only screen and (min-width: 54.5em) {
+    #navigation {
+        width: 900px;
+        margin: 16px auto;
+    }
+}
