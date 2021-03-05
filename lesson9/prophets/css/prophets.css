@@ -1,0 +1,67 @@
+html {
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+    
+}
+
+h1, footer {
+    text-align: center;
+}
+
+div.cards {
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section {
+    padding: 15px;
+    background-color: #1ECBE1;
+}
+
+section:hover {
+    background-color: #1a93a3;
+    transition: 0.5s ease-out;
+}
+
+
+p {
+    line-height: 1;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+
+footer {
+    margin:0 auto;
+    padding: 10px;
+}
+
+/*********************************************************
+* TABLET
+*********************************************************/
+@media only screen and (min-width: 34.5em) {
+    div.cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+/*********************************************************
+* TABLET
+*********************************************************/
+@media only screen and (min-width: 54.5em) {
+    div.cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+}
