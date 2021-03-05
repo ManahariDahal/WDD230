@@ -12,6 +12,11 @@ h1, footer {
     text-align: center;
 }
 
+h2 {
+    background-color: orange;
+}
+
+
 div.cards {
     margin: 0 auto;
     text-align: center;
@@ -20,7 +25,7 @@ div.cards {
 }
 
 section {
-    padding: 15px;
+    padding: 25px;
     background-color: #1ECBE1;
 }
 
@@ -28,7 +33,6 @@ section:hover {
     background-color: #1a93a3;
     transition: 0.5s ease-out;
 }
-
 
 p {
     line-height: 1;
@@ -41,8 +45,10 @@ img {
 
 
 footer {
-    margin:0 auto;
-    padding: 10px;
+    padding: 20px;
+    margin-top: 25px;
+    color: white;
+    background-color: #1abc9c;
 }
 
 /*********************************************************
