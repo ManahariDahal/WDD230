@@ -20,6 +20,10 @@ div {
     color: #061c61;
 }
 
+main {
+    padding: 0 0 15px 0;
+}
+
 section {
 	max-width: 800px;
     margin: .5rem auto;
