@@ -40,6 +40,7 @@ fetch (requestURL)
                 card.appendChild(image);
 
                 document.querySelector('div.cards').appendChild(card).appendChild(div);
+    
                 
                 
             }
