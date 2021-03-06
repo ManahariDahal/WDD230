@@ -1,0 +1,74 @@
+body {
+    background-color: #f1f1f1;
+}
+
+#liz {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.cards {
+    padding: 0 55px;
+}
+
+div {
+    color: #061c61;
+}
+
+section {
+	max-width: 900px;
+    margin: .5rem auto;
+    background-color: #cfe9f7;
+    padding: 20px;
+}
+
+section:nth-child(odd) img {
+	grid-column: 2;
+}
+
+section:nth-child(odd) div {
+	grid-column: 1;
+	grid-row: 1;
+}
+
+img {
+    width: 100%;
+}
+
+p, h2, h3 {
+    text-align: center;
+}
+
+h2, h3 {
+    color: #04195e;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    word-spacing: 5px;
+    transform: scale(0.6, 1);
+}
+
+h3 {
+    margin-top: 0;
+}
+
+
+
+/******************************************************************
+* LARGE
+*******************************************************************/
+@media only screen and (min-width: 34.5em) {
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
