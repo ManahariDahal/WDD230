@@ -49,16 +49,19 @@ h2, h3 {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0;
     word-spacing: 5px;
-    transform: scale(0.6, 1);
+    /* transform: scale(0.6, 1); */
 }
 
 h3 {
     margin-top: 0;
 }
 
+footer div {
+    color: white;
+}
 
 
 /******************************************************************
