@@ -30,18 +30,18 @@ section {
     background-color: #cfe9f7;
     padding: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 15px;
 }
 
 /* section:nth-child(odd) img {
-    grid-column: 2;
-} */
+    grid-column: 1;
+} 
 
 section:nth-child(odd) div {
     grid-column: 1;
     grid-row: 1;
-}
+} */
 
 
 section img {
@@ -74,6 +74,27 @@ h3 {
 footer div {
     color: white;
 }
+
+
+
+
+/******************************************************************
+* MEDIUM
+*******************************************************************/
+@media only screen and (min-width: 34.5em)
+{
+    section {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section:nth-child(odd) div {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    
+}
+
 
 
 /******************************************************************
