@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Gallery </title>
+
+    <!-- Normalize, Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/gallery/gallery.css">
+
+    <!-- Fav-icon -->
+    <link rel="shortcut icon" type="image/jpg" href="./assets/m.svg"/>
+   
+
+</head>
+<body>
+    <p id = "banner">
+        <span id="sat"> Saturday = Preston Pancakes in the Park! 9:00 a.m. </span>
+        <br> !!! Saturday at the city park pavilion !!! 
+    </p>
+
+    <!-- Header -->
+    <div>
+        <header>
+            <img class="icon" src="./assets/main-icon.svg" alt="main-logo">
+            <div class="text-prop" >
+                <h2>LizWeathers'Weather</h2>
+                <p id="slogan">Your friendly neighborhood weatherman</p>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav>
+            <ul id="navigation">
+                <li><a href="#" class="ham">&#9776;</a></li>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="./storm-center.html">Storm Center</a></li>
+                <li><a class="active-page" href="./gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <p class="centered"> Gallery </p>
+        
+
+        <!-- Gallery -->
+        <section class = "gallery">
+            <picture>
+                <img loading="lazy" src="./assets/gallery/placeholder.png" alt="random image placeholder" data-src="./assets/gallery/1.jpg">
+                <div class = "caption"> </div>
+            </picture>
+
+            <picture>
+                <img loading="lazy" src="./assets/gallery/placeholder.png" alt="random image placeholder" data-src="./assets/gallery/2.jpg">
+                <div class = "caption"> </div>
+            </picture>
+
+            <picture>
+                <img loading="lazy" src="./assets/gallery/placeholder.png" alt="random image placeholder" data-src="./assets/gallery/3.jpg">
+                <div class = "caption"> </div>
+            </picture>
+
+            <picture>
+                <img loading="lazy" src="./assets/gallery/placeholder.png" alt="random image placeholder" data-src="./assets/gallery/4.jpg">
+                <div class = "caption"> </div>
+            </picture>
+
+            <picture>
+                <img loading="lazy" src="./assets/gallery/placeholder.png" alt="random image placeholder" data-src="./assets/gallery/5.jpg">
+                <div class = "caption"> </div>
+            </picture>
+
+            <picture>
+                <img loading="lazy" src="./assets/gallery/placeholder.png" alt="random image placeholder" data-src="./assets/gallery/6.jpg">
+                <div class = "caption"> </div>
+            </picture>
+
+            <picture>
+                <img loading="lazy" src="./assets/gallery/placeholder.png" alt="random image placeholder" data-src="./assets/gallery/7.jpg">
+                <div class = "caption"> </div>
+            </picture>
+
+            <picture>
+                <img loading="lazy" src="./assets/gallery/placeholder.png" alt="random image placeholder" data-src="./assets/gallery/8.jpg">
+                <div class = "caption"> </div>
+            </picture>
+
+            <picture>
+                <img loading="lazy" src="./assets/gallery/placeholder.png" alt="random image placeholder" data-src="./assets/gallery/9.jpg">
+                <div class = "caption"> </div>
+            </picture>
+    
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div>
+                &copy; | Manahari Dahal | Idaho
+            </div>
+            <span id="date">Date: </span>
+        </footer>
+
+    </div>
+
+    
+    <!-- External JS -->
+    <script src="./js/main.js"></script>
+    <script src="./js/gallery/caption.js"></script>
+    <script src="./js/gallery/lazy-load.js"></script>
+
+    <!-- Web font -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: { 
+                families: ['Poppins']
+            }
+        }); 
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+/******************************************************************
+* MEDIUM
+*******************************************************************/
+@media only screen and (min-width: 34.5em) {
+    nav {
+        max-width: 100%;
+    }
+
+    #banner {
+        text-align: center;
+    }
+
+    .in-block {
+        display: block;
+    }
+
+    .overlay {
+        margin: 0;
+        position: absolute;
+        background-color: rgba(128, 0, 128, 0.8);
+        left: 3em;
+        top: 1em;
+    }
+
+    .overlay p {
+        line-height: 0.5;
+    }
+
+    #two {
+        width: 40%;
+        float: right;
+    }
+
+
+    #navigation {
+        grid-template-columns: repeat(7, auto); /* 1fr 1fr 1fr 1fr 1fr 1fr */
+    }
+
+    #navigation li {
+        display: block;
+    }
+
+    #navigation li a {
+        text-align: center;
+    }
+
+    #navigation li:first-child {
+        display: none;
+    }
+
+    /* main {
+        margin: 0 auto;
+        display: grid;  
+        grid-template-columns: 1fr;
+        background-color: white;
+        gap: 1em;
+        text-align:center;
+        border-radius: 25px;
+    } */
+}

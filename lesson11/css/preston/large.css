@@ -1,0 +1,30 @@
+/******************************************************************
+* LARGE
+*******************************************************************/
+@media only screen and (min-width: 54.5em) {
+    #navigation {
+        width: 900px;
+        margin: 16px auto;
+    }
+
+    .in-block {
+        display: block;
+    }
+
+    .image-banner img {
+        max-width: 1060px;
+    }
+
+
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1060px;
+}
+
+footer {
+    text-align: center;
+    background: #0a60a1;
+    color: white;
+    padding: 20px;
+}

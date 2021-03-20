@@ -1,0 +1,202 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ecf6ff;
+}
+
+#banner {
+    box-sizing: border-box;
+    background-color: orange;
+    margin: 0 auto;
+    padding: 10px;
+    top: 0;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+
+}
+
+#sat {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+header {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text-prop {
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#slogan {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+    width: 100px;
+    height: auto;  
+}
+
+.image-banner img {
+    margin: 0;
+    max-width: 100%;
+}
+
+.centered {
+    margin: 0;
+    font-size: 1.7rem;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+.wrapper {
+    position: relative;
+}
+
+.overlay {
+    color: black;
+    padding: 1em;
+    margin-top: 1%;
+    background-color: rgba(128, 0, 128, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+#txt-size {
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+hr {
+    margin: 0;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+
+
+.five-days-weather {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 15px;
+    border: solid 1px black;
+    background-color: rgba(255, 7, 7, 0.5);
+}
+
+#five {
+    background-color: rgba(23, 146, 228);
+    /* margin: 0; */
+    padding: 15px;
+    text-align: center;
+}
+
+.main-padding {
+    padding: 15px;
+}
+
+#pad {
+    /* background-color: green; */
+    text-align: left;
+    padding: 15px;
+}
+
+#two {
+    width: 100%;
+}
+
+
+.contact-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.contact-us-grid {
+    grid-column: 1/2;
+}
+
+#map {
+    width: 100%;
+    grid-column: 2/2;
+
+}
+
+#bg-contact {
+    background-color: rgba(251, 80, 0, 0.5);
+    padding: 15px;
+}
+
+.size {
+    font-size: 1.2em;
+}
+
+
+nav {
+    margin: 0 auto;
+    max-width: 360px;
+    background-color: #085399;
+}
+
+#navigation {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+
+#navigation li:first-child {
+    display: block;
+}
+
+#navigation li {
+    display: none;
+}
+
+#navigation a:link, #navigation a:visited, #navigation a:hover, #navigation a:active {
+    display: block;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    color: white;
+}
+
+
+#navigation a:hover {
+    color: black;
+    background-color: #f58a07;
+    
+}
+
+#navigation>li>.active-page {
+    color: black;
+    background-color: #f58a07;
+}
+
+#navigation.responsive li {
+    display: block;
+}
