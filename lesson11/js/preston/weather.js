@@ -23,9 +23,6 @@ fetch(url2)
             let evening_time = jsonObject.list[i]["dt_txt"];
             let new_date = evening_time.substr(0, evening_time.indexOf(' '));
 
-            // filter this until the space is found
-            let time_of_the_day = evening_time.substr(evening_time.indexOf(' ') + 1);
-
             if ((evening_time.substr(evening_time.indexOf(' ') + 1)) == "18:00:00")
             {
                 let new_div = document.createElement('div');
