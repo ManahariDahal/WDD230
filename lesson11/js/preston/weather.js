@@ -1,5 +1,5 @@
 const url1 = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=fbcf836cec761e369e64b49c8b420878';
-const url2 = 'https:/api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=fbcf836cec761e369e64b49c8b420878';
+const url2 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=fbcf836cec761e369e64b49c8b420878';
 
 
 fetch(url1)
