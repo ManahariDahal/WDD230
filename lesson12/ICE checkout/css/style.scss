@@ -1,0 +1,241 @@
+body {
+    margin: 10% auto;
+    font-family: 'Poppins', sans-serif;
+    max-width: 900px;
+    background-color: #8fe2d2;
+}
+
+.material-icons
+{
+    color: white;
+}
+
+.section-one {
+    display: grid;
+    // margin: 0 auto;
+    background-color: #f5f5f5;
+    // max-width: 500px;
+
+    .progress {
+        list-style: none;
+        background-color: #1c6ce5;
+        padding: 0 15px;
+        margin-top: 20px;
+        
+
+        #bar {
+            display: grid;
+            grid-template-columns: auto 6fr auto 6fr auto;
+            gap: none;
+            list-style: none;
+            padding: 0;
+            margin-bottom: 0;
+                
+                hr {
+                    border-color: white;
+                    border-style:solid;
+                    border-width:2px;
+                    margin-top: 9px;
+                }
+        }
+
+        #bar-texts {
+            list-style: none;
+            display: flex;
+            // justify-content: center;
+            justify-content: space-between;
+            padding: 0;
+            margin-top: 0;
+
+            li {
+                color: white;
+                padding-right: 15px;
+            }
+
+            #left {
+                text-align: left;
+            }
+
+            #right {
+                text-align: right;
+                padding: 0;
+            }
+        }
+    }
+
+    h2 {
+        color: #888888;
+        font-weight: 500;
+        padding: 0 45px;
+    }
+
+    #summary {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 380px;
+        padding: 0 45px;
+        font-size: 1em;
+
+        p {
+            text-align: left;
+            font-weight: 600;
+            color: #c6c6c6;
+        }
+
+        h4 {
+            text-align: right;
+        }
+
+        #due {
+            color: blue;
+        }
+
+
+        hr {
+            grid-column:1/-1;
+            width:100%;
+            border:1px solid #e4e4e4;
+            
+        }
+    }
+
+    #return {
+        color: blue;
+        cursor: pointer;
+        padding: 0 45px;
+        font-size: 0.9em;
+    }
+}
+
+.section-two {
+    margin-left: 0;
+    background-color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    
+        #visa-paypal {
+            padding: 0 20px;
+            margin: 15px;
+            text-align: right;
+            
+            
+
+                #paypal{
+                    font-style: oblique;
+                    padding: 0 15px;
+                    background-color: #d9d9d9;
+                    border-radius: 0 25px 25px 0;
+                    color: white; 
+                }
+
+
+                #visa {
+                    background-color: blue;
+                    border-radius: 25px 0 0 25px;
+                    padding: 0 15px;
+                    color: white; 
+                }
+        }
+
+    h2 {
+        color: #888888;
+        font-weight: 500;
+        padding: 0 45px;
+    }
+
+    .user-info {
+        padding: 0.75em 1em;
+        text-transform: uppercase;
+
+            #card-name {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+
+            .card-num {
+                display: grid;
+                grid-template-columns: 1fr;
+
+                #expire {
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+
+            label {
+                color: #c6c6c6;
+
+                hr {
+                    font-size: 4.4rem;
+                    border: 1px solid rgba(0, 0, 0, 0.1);
+                }
+                
+            }
+
+            input {
+                border: none;
+                border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+                padding: 0.75em 1em;
+                outline: none;   
+                width: 80%;
+            }
+
+            input:focus {
+                border-bottom: 2px solid #46b5d1;
+            }
+        }
+
+
+        .expire-date {
+            border-style: none;
+            font-size: 1em;
+            font-weight: bold;
+            color: #646464;
+        }
+
+        #month-year {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        #cvv {
+            width: 60px;
+        }
+
+        #question {
+            background-color: #cecece;
+            color: white;
+            padding: 0 5px;
+            font-size: 0.7em;
+            border-radius: 100%;
+            text-align: center;
+        }   
+        
+        #shipping {
+            font-size: .6em;
+            color: rgb(116, 116, 116);
+            text-transform: lowercase;
+        }
+
+        #address {
+            margin: 0;
+        }
+
+        .card-name {
+            #address {
+                margin: 0;
+                font-size: 0.1em;
+            }
+        }
+  
+}
+
+
+/******************************************************************
+* LARGE-SCREEN
+*******************************************************************/
+@media only screen and (min-width: 54.5em) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

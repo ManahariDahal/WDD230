@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICE Check out</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="section-one">
+        <div class="progress">
+            <ul id="bar"> 
+                <li>
+                    <span class="material-icons">
+                        check_circle
+                    </span>
+                </li>
+                
+                <li><hr></li>
+                
+                <li>
+                    <span class="material-icons">
+                        circle
+                    </span>
+                </li>
+
+                <li>
+                    <hr>
+                </li>
+                <li>
+                    <span class="material-icons">
+                        circle
+                    </span>
+                </li>
+            </ul>
+    
+            <ul id="bar-texts">
+                <li id="left">Shipping</li>
+                <li>Payment details</li>
+                <li id="right">Checkout</li>
+            </ul>
+        </div>
+
+
+        <h2>Order Summary</h2>
+
+        <div id="summary">
+            <p>Order Subtotal </p>
+            <h4>$46.95</h4>
+            <p>Shipping & Handling </p>
+            <h4>$6.00</h4>
+            <p>Sales Tax </p>
+            <h4>$8.05</h4>
+            <hr>
+            <p>Payment Due </p>
+            <h4 id="due">$61.00</h4>
+        </div>
+
+        <p id="return">Return to cart</p>
+    </section>
+
+
+    <section class="section-two">
+        <div id="visa-paypal">
+            <span id="visa"> VISA </span>
+            <span id="paypal"> PayPal </span>
+        </div>
+        
+        <h2> Payment details </h2>
+
+        <div class="user-info">
+            <p class="card-name">
+                <label for="name"> Cardholder name </label>
+                <input type="text" placeholder="Your Name">
+            </p>
+            
+            <p class="card-num">
+                <label for="card"> Card number </label>
+                <input type="text" placeholder="1234 5678 9012 3456">
+            </p>
+
+                <p class="card-num">
+                    <label for="card" id="expire"> Expiration Date </label>
+                    <div id="month-year">
+                        <label for="month">Month
+                            <select class="expire-date">
+                                <option>06</option>
+                            </select>
+                            <hr>
+                        </label>
+                        
+                        <label for="month">Year
+                            <select class="expire-date">
+                                <option>18</option>
+                            </select>
+                           <hr>
+                        </label>
+
+                        <label for="cvv" id="cvv">CVV <span id="question">?</span>
+                            <input type="text" placeholder="&bull; &bull; &bull;">
+                        </label>
+                    </div>
+
+                    <p class="card-name">
+                        <label for="address"> Billing Address </label>
+                        <input type="text" placeholder="123 St, Rexburg ID">
+
+                        <label for="address" id="address"></label><input type="checkbox" >Same as shipping address </label>
+                    </p>
+
+                    
+                </div>
+                </p>
+
+                
+
+        
+
+            
+
+            
+        </div>
+
+
+    </section>
+
+
+    
+    
+</body>
+</html>
