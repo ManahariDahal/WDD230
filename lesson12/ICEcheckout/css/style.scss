@@ -94,7 +94,8 @@ body {
         hr {
             grid-column:1/-1;
             width:100%;
-            border:1px solid #e4e4e4;
+            border: 1px solid #fff;
+            background-color: #fff;
             
         }
     }
@@ -108,7 +109,6 @@ body {
 }
 
 .section-two {
-    margin-left: 0;
     background-color: #fff;
     font-family: 'PT Sans', sans-serif;
     
@@ -218,15 +218,20 @@ body {
 
         #address {
             margin: 0;
+            
         }
 
-        .card-name {
-            #address {
-                margin: 0;
-                font-size: 0.1em;
-            }
-        }
-  
+        #btn {
+            width: 120px;
+            height: 36px;
+            border-radius: 18px;
+            background-color: #1c89ff;
+            border: solid 1px transparent;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 300;
+            cursor: pointer;
+        }  
 }
 
 
