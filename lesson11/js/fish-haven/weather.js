@@ -1,7 +1,6 @@
 const url1 = "https://api.openweathermap.org/data/2.5/weather?id=5596475&units=imperial&appid=fbcf836cec761e369e64b49c8b420878";
 const url2 = "https://api.openweathermap.org/data/2.5/forecast?id=5596475&units=imperial&appid=fbcf836cec761e369e64b49c8b420878";
 
-
 fetch(url1)
     .then(response => response.json())
     .then(jsonObject => {
