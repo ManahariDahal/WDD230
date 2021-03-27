@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Haven</title>
+
+    <!-- Normalize, Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/preston/small.css">
+    <link rel="stylesheet" href="./css/preston/medium.css">
+    <link rel="stylesheet" href="./css/preston/large.css">
+
+    <!-- Fav-icon -->
+    <link rel="shortcut icon" type="image/jpg" href="./assets/m.svg"/>
+   
+
+</head>
+<body>
+    <p id = "banner">
+        <span id="sat"> Saturday = Preston Pancakes in the Park! 9:00 a.m. </span>
+        <br> !!! Saturday at the city park pavilion !!! 
+    </p>
+
+    <div>
+        <header>
+            <img class="icon" src="./assets/main-icon.svg" alt="main-logo">
+            <div class="text-prop" >
+                <h2>LizWeathers'Weather</h2>
+                <p id="slogan">Your friendly neighborhood weatherman</p>
+            </div>
+        </header>
+
+        <nav>
+            <ul id="navigation">
+                <li><a href="#" class="ham">&#9776;</a></li>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./preston.html">Preston</a></li>
+                <li><a href="./soda-springs.html">Soda Springs</a></li>
+                <li><a class="active-page" href="./fish-haven.html">Fish Haven</a></li>
+                <li><a href="./storm-center.html">Storm Center</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <p class="centered"> Preston Idaho </p>
+
+        <main class="wrapper">
+            <div class="image-banner in-block">
+                <picture>
+                    <source media="(min-width:15em) and (max-width:34.4em)" srcset="./assets/fish-haven/banner-img-small.jpg">
+                    <source media="(min-width:34.5em) and (max-width:54.4em)" srcset="./assets/fish-haven/banner-img-med.jpg">
+                    
+                    <img src="./assets/fish-haven/banner-img.jpg" alt="Banner-image">
+                    
+                </picture>
+                
+                <div class="overlay">
+                    <h2>Weather Summary</h2>
+                    <hr>
+                    <div id="txt-size">
+                        <p> High:        <span id="temp">  </span>&#8457; </p>
+                        <p> Currently:   <span id="current"> </span>      </p>
+                        <p> Wind Chill:  <span id="chill"> </span> </p>
+                        <p> Humidity:    <span id="humidity"> </span>%      </p>
+                        <p> Wind Speed:  <span id="speed"> </span>mph   </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class = "main-padding">
+                <h2 id="five"> Five Days Forecast </h2> 
+                <div class="five-days-weather">
+                    <!-- Everything is done in JS -->
+                </div>
+            </div>
+
+            <div id="space">
+                <h2 class="centered"> Article </h2>
+                <img id = "two" src="./assets/people-3.jpg" alt="two people talking">
+                <div id ="pad">
+                    "Are you getting my texts???" she texted to him. He glanced at it and chuckled under his breath. 
+                    Of course he was getting them, but if he wasn't getting them, how would he ever be able to answer? 
+                    He put the phone down and continued on his project. He was ignoring her texts and he planned to continue to do so.
+                    Barbara had been waiting at the table for twenty minutes. it had been twenty long and excruciating minutes. 
+                    
+                    <br>
+                    <br>
+                    David had promised that he would be on time today. He never was, but he had promised this one time. 
+                    She had made him repeat the promise multiple times over the last week until she'd believed his promise. 
+                    Now she was paying the price.
+
+                    <br>
+                    <br>
+                    The leather jacked showed the scars of being his favorite for years. It wore those scars with pride, feeling that they enhanced his presence rather than diminishing it. 
+                    The scars gave it character and had not overwhelmed to the point that it had become ratty. The jacket was in its prime and it knew it.
+                    
+                    <br>
+                    <br>
+                    Here's the thing. She doesn't have anything to prove, but she is going to anyway. That's just her character. 
+                    She knows she doesn't have to, but she still will just to show you that she can. 
+                    Doubt her more and she'll prove she can again. We all already know this and you will too.
+                </div>
+            </div>
+
+
+            <div class = "main-padding">
+                <div class="contact-us" id="bg-contact">
+                    <div class="contact-us-grid size">
+                        <h3>
+                            Contact Us:
+                        </h3>
+                        <p> &#x2706; : 123-456-7890 </p>
+                        <p> &#x2709; : lizweathersweather@gmail.com </p>
+                    </div>
+                    <p><img id="map" src="./assets/map.jpg" alt="map"></p>
+
+                </div>
+            </div>
+        </main>
+
+       
+        <!-- Footer -->
+        <footer class="footer">
+            <div>
+                &copy; | Manahari Dahal | Idaho
+            </div>
+            <span id="date">Date: </span>
+        </footer>
+
+    </div>
+
+
+    <!-- External JS -->
+    <script src="./js/fish-haven/windchill.js"></script>
+    <script src="./js/fish-haven/weather.js"></script>
+    <script src="./js/main.js"></script>
+  
+    
+    <!-- Web font -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: { 
+                families: ['Poppins']
+            }
+        }); 
+    </script>
+
+
+</body>
+</html>
