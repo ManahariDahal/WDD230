@@ -7,9 +7,17 @@ fetch(url1)
     .then(jsonObject => {
         document.getElementById("current").innerHTML = jsonObject.weather[0].description;
         document.getElementById("temp").innerHTML = Math.ceil(jsonObject.main.temp_min);
-        document.getElementById("chill").innerHTML = jsonObject.wind.deg;
+        // document.getElementById("chill").innerHTML = jsonObject.wind.deg;
         document.getElementById("speed").innerHTML = jsonObject.wind.speed;
-        document.getElementById("humidity").innerHTML = jsonObject.main.humidity;   
+        document.getElementById("humidity").innerHTML = jsonObject.main.humidity; 
+        
+        let temp = document.getElementById('temp').innerHTML;
+        let speed = document.getElementById('speed').innerHTML;
+        let wind_chill = Math.round(35.74 + (0.6215 * temp) - (35.75 * (speed) ** 0.16) + 
+        (0.4275 * temp * ((speed)**0.16))) + "℉";
+
+        document.getElementById("chill").innerHTML = wind_chill;
+        
 })
 
 fetch(url2)

@@ -10,9 +10,12 @@ fetch(url1)
         document.getElementById("speed").innerHTML = jsonObject.wind.speed;
         document.getElementById("humidity").innerHTML = jsonObject.main.humidity;   
         
-        // let windchill = Math.ceil(35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16)) + 
-        //                 (0.4275 * temp * Math.pow(speed,0.16)));
-        document.getElementById("chill").innerHTML = jsonObject.wind.deg;
+        let temp = document.getElementById('temp').innerHTML;
+        let speed = document.getElementById('speed').innerHTML;
+        let wind_chill = Math.round(35.74 + (0.6215 * temp) - (35.75 * (speed) ** 0.16) + 
+        (0.4275 * temp * ((speed)**0.16))) + "℉";
+
+        document.getElementById("chill").innerHTML = wind_chill;
 })
 
 fetch(url2)
